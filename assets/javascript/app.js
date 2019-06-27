@@ -1,17 +1,18 @@
 $(document).ready(function(){
-    var config = {
-        apiKey: "AIzaSyBx17kDUagsCiG3kFPEjb6grnI4SHw9nmU",
-        authDomain: "codersbay-dec04.firebaseapp.com",
-        databaseURL: "https://codersbay-dec04.firebaseio.com",
-        projectId: "codersbay-dec04",
-        storageBucket: "codersbay-dec04.appspot.com",
-        messagingSenderId: "961871923217",
-        appId: "1:961871923217:web:fc7326052b494a17"
-    };
-    firebase.initializeApp(config);
+    
+    var firebaseConfig = {
+        apiKey: "AIzaSyDqXLjKny8plL8ED0m2K91WxbzCvSNQAD4",
+        authDomain: "train-scheduler-79f46.firebaseapp.com",
+        databaseURL: "https://train-scheduler-79f46.firebaseio.com",
+        projectId: "train-scheduler-79f46",
+        storageBucket: "",
+        messagingSenderId: "519140144729",
+        appId: "1:519140144729:web:e5b7d13cae579362"
+      };
+
+      firebase.initializeApp(firebaseConfig);
 
     var database = firebase.database();
-
     var name;
     var destination;
     var firstTrain;
